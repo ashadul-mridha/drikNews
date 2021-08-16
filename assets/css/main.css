@@ -1,0 +1,135 @@
+/* common css */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.text-red{
+    color: #FF1111;
+}
+.category-title{
+    position: relative;
+}
+.category-title h5, select, option{
+    margin-left: 22px;
+    font-size: 20px;
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.category-title::before{
+    position: absolute;
+    content: " ";
+    background-color: #FF1111;
+    height: 100%;
+    width: 10px;
+    left: 0%;
+    top: 0%;
+}
+.see-all-btn{
+    color: #000000!important;
+    text-transform: capitalize;
+    font-size: 24px;
+    text-decoration: none;
+}
+.footer-vr{
+    position: relative;
+
+}
+.footer-vr::after{
+    position: absolute;
+    content: " ";
+    background-color: #4F4F4F;
+    height: 100%;
+    width: 2px;
+    top: 0;
+    right: 0;
+}
+
+
+/* middle nav logo bar */
+.nav-marquee-text{
+    font-size: 16px;
+    color: #000000;
+}
+
+/* topnav bar last section */
+.top-navbar-items{
+    margin: 40px 0px;
+}
+.top-navbar-items a{
+    font-size: 16px;
+    margin-left: 11px;
+}
+.top-navbar-items:last-child{
+    margin-left: 0px;
+}
+
+/* hero section */
+.hero-news{
+    position: relative;
+}
+.hero-news-content{
+    background-color: #221f229a;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+}
+.hero-news-content h4{
+    font-size: 25px;
+    color: #ffffff;
+}
+.hero-news-date{
+    background-color: black;
+    padding: 5px;
+    margin-right: 15px;
+}
+.hero-news-date h4{
+    color: red;
+}
+.hero-news-short{
+    position: relative;
+}
+.hero-news-content-short{
+    width: 100%;
+    background-color: #221f229a;
+    position: absolute;
+    bottom: 0%;
+}
+.hero-news-content-short h4{
+    font-size: 15px;
+    text-align: start;
+    color: #ffffff;
+    padding: 5px;
+}
+
+/* popular news */
+.popular-news h2{
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 19px;
+}
+.popular-news-category h4{
+    font-size: 15px;
+    color: #4F4F4F;
+}
+.popular-news-show{
+    margin-top: 20px;
+}
+.popular-news-show h5{
+    color: #4F4F4F;
+    font-size: 14px;
+}
+/* 
+science cultural and education area */
+.sci-cul-edu-body{
+    margin-top: 20px;
+}
+.sci-cul-edu-body h5{
+    color: #4F4F4F;
+    font-size: 16px;
+}
