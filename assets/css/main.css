@@ -52,7 +52,7 @@ body{
 
 /* middle nav logo bar */
 .nav-marquee-text{
-    font-size: 16px;
+    font-size: 20px;
     color: #000000;
 }
 
@@ -61,7 +61,7 @@ body{
     margin: 40px 0px;
 }
 .top-navbar-items a{
-    font-size: 16px;
+    font-size: 20px;
     margin-left: 11px;
 }
 .top-navbar-items:last-child{
