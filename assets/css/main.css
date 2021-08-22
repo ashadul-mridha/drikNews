@@ -133,3 +133,22 @@ science cultural and education area */
     color: #4F4F4F;
     font-size: 16px;
 }
+
+
+/* live section */
+.live-tv-show{
+    position: relative;
+}
+.live-tv-show-content{
+    background-color: #221f229a;
+    text-align: start;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    padding: 10px;
+    color: #ffffff;
+}
+.next-live{
+    background: linear-gradient(rgba(255, 255, 255, 0.472),rgba(0, 0, 0, 0.25) ),url("../images/live-show.png");
+    background-position: right top;
+}
