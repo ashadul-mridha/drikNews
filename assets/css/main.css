@@ -149,6 +149,9 @@ science cultural and education area */
     color: #ffffff;
 }
 .next-live{
-    background: linear-gradient(rgba(255, 255, 255, 0.472),rgba(0, 0, 0, 0.25) ),url("../images/live-show.png");
+    background: linear-gradient(rgba(255, 255, 255, 0.472),rgba(0, 0, 0, 0.25) ),url("../images/live-2.png");
     background-position: right top;
+    background-repeat: no-repeat;
+    
+    height: 500px;
 }
